@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nIz8oeshrF8PN0X7IWGpJaYcURu1HIbPvmJ7dBsZEUBil6sagsqyZdjEMtTOmEPuYteJ1gN4Ryxo81R39yPXRQ==",
+  "dgSpecHash": "a1vBssRu1BOIV34Zdy50BcTKEdkrZaSWUXergXC5/GjyYVVlVdey+2LWbv/2PhglYs+tjd4X7u4bCKc6X6XBgQ==",
   "success": true,
-  "projectFilePath": "C:\\DevTemp\\datingapp\\DatingApp.API\\DatingApp.API.csproj",
+  "projectFilePath": "c:\\dev\\dotnetcorecurso\\DatingApp.API\\DatingApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tarcisio\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tarcisio\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
