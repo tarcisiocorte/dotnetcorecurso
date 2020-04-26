@@ -401,7 +401,6 @@ c:\dev\dotnetcorecurso\DatingApp.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\na
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.csprojAssemblyReference.cache
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.AssemblyInfoInputs.cache
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.AssemblyInfo.cs
-c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.csproj.CoreCompileInputs.cache
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.MvcApplicationPartsAssemblyInfo.cache
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.RazorTargetAssemblyInfo.cache
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.csproj.CopyComplete
@@ -409,4 +408,5 @@ c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\staticwebassets\Dat
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\staticwebassets\DatingApp.API.StaticWebAssets.xml
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.dll
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.pdb
+c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.csproj.CoreCompileInputs.cache
 c:\dev\dotnetcorecurso\DatingApp.API\obj\Debug\netcoreapp3.1\DatingApp.API.genruntimeconfig.cache

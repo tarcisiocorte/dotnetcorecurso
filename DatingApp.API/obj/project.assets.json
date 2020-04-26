@@ -7021,11 +7021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\dotnetcorecurso\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "C:\\dev\\dotnetcorecurso\\DatingApp.API\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "c:\\dev\\dotnetcorecurso\\DatingApp.API\\DatingApp.API.csproj",
+      "projectPath": "C:\\dev\\dotnetcorecurso\\DatingApp.API\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\Tarcisio\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\dotnetcorecurso\\DatingApp.API\\obj\\",
+      "outputPath": "C:\\dev\\dotnetcorecurso\\DatingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7084,16 +7084,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7102,7 +7092,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.2.20176.6\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

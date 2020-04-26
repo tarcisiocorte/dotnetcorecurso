@@ -24,6 +24,8 @@ namespace DatingApp.API.Controllers
         {
             var values = await _context.Values.ToListAsync();
 
+            values.Add(new Models.Values() { Id = 100, Name = "Fazendo algo que preste" });
+
             return Ok(values);
         }
 
