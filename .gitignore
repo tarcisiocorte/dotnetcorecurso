@@ -34,4 +34,9 @@ msbuild.err
 msbuild.wrn
 
 # Visual Studio 2015
-.vs/
+
+#Database
+*.db
+
+#Others
+*.lock
