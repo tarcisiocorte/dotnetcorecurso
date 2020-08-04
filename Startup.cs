@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using DatingApp.API.Data;
-using DatingApp.API.Helper;
+using DatingApp.API.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
@@ -60,13 +60,16 @@ namespace DatingApp.API
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
+            else 
             {
-                app.UseExceptionHandler(builder =>{
-                    builder.Run(async context => {
+                app.UseExceptionHandler(builder => 
+                {
+                    builder.Run(async context => 
+                    {
                         context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+
                         var error = context.Features.Get<IExceptionHandlerFeature>();
-                        if(error != null)
+                        if (error != null)
                         {
                             context.Response.AddApplicationError(error.Error.Message);
                             await context.Response.WriteAsync(error.Error.Message);
