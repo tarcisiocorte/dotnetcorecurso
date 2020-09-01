@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 using Microsoft.AspNetCore.Http;
 
@@ -21,4 +22,19 @@ namespace DatingApp.API.Helpers
             return age;
         }
     }
+=======
+using Microsoft.AspNetCore.Http;
+
+namespace DatingApp.API.Helpers
+{
+    public static class Extensions
+    {
+        public static void AddApplicationError(this HttpResponse response, string message)
+        {
+            response.Headers.Add("Application-Error", message);
+            response.Headers.Add("Access-Control-Expose-Headers", "Application-Error");
+            response.Headers.Add("Access-Control-Allow-Origin", "*");
+        }
+    }
+>>>>>>> e9db0dd98d8d121db6ec5b3effe91fd5226bf897
 }

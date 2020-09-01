@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 
@@ -19,4 +20,15 @@ namespace DatingApp.API.Models
         public string Country { get; set; }
         public ICollection<Photo> Photos { get; set; }
     }
+=======
+namespace DatingApp.API.Models
+{
+    public class User
+    {
+        public int Id { get; set; }
+        public string Username { get; set; }
+        public byte[] PasswordHash { get; set; }
+        public byte[] PasswordSalt { get; set; }
+    }
+>>>>>>> e9db0dd98d8d121db6ec5b3effe91fd5226bf897
 }
