@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using System;
 using DatingApp.API.Data;
 using Microsoft.AspNetCore.Hosting;
@@ -41,31 +40,3 @@ namespace DatingApp.API
                 });
     }
 }
-=======
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-
-namespace DatingApp.API
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
-
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
-    }
-}
->>>>>>> e9db0dd98d8d121db6ec5b3effe91fd5226bf897

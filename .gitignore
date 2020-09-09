@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 .vscode
 bin
 obj
-=======
-.vscode
-bin
-obj
->>>>>>> e9db0dd98d8d121db6ec5b3effe91fd5226bf897
 *.db
