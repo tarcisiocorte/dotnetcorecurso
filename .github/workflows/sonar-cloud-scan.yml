@@ -1,0 +1,15 @@
+name: Sonarscanner for dotnet
+uses: Secbyte/dotnet-sonarscanner@v2.3
+with:
+  buildCommand: dotnet build .
+  testCommand: dotnet test .
+  projectKey: a-project-key
+  projectName: a-project-name
+  sonarOrganisation: an-org
+  beginArguments: >
+      /d:sonar.verbose="true"
+      /d:sonar.cs.opencover.reportsPaths='"/path/to/coverage.xml","/path/to/coverage.2.xml"'
+      /d:sonar.coverage.exclusions='"**/*.cs","**/*.md"'
+env:
+  SONAR_TOKEN: 9a3997eb0fed3cb266b3ec279891c6f92e6ad23d
+  GITHUB_TOKEN: 9a3997eb0fed3cb266b3ec279891c6f92e6ad23d
