@@ -3,9 +3,9 @@ uses: Secbyte/dotnet-sonarscanner@v2.3
 with:
   buildCommand: dotnet build .
   testCommand: dotnet test .
-  projectKey: a-project-key
-  projectName: a-project-name
-  sonarOrganisation: an-org
+  projectKey: tarcisiocorte_dotnetcorecurso
+  projectName: dotnetcorecurso
+  sonarOrganisation: tarcisiocorte
   beginArguments: >
       /d:sonar.verbose="true"
       /d:sonar.cs.opencover.reportsPaths='"/path/to/coverage.xml","/path/to/coverage.2.xml"'
